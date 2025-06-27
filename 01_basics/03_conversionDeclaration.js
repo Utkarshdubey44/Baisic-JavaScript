@@ -27,5 +27,40 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = null
 let stringNumber = String(someNumber)
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// ******************** Operations *******************
+
+let value = 3
+let negValue = -value
+// console.log(negValue)
+
+let str1 = "U"
+let str2 = "Dubey"
+
+// console.log(str1 + str2);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2); //bad practice
+
+// console.log((2 + 2) * 5 % 21);
+
+console.log(+true);
+console.log(+"");
+
+let num1,num2, num3 
+
+// num1 = num2 = num3 = 2 + 2  // not a good practice as this decrease the code readability
+
+// console.table([num1, num2, num3]);
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+gameCounter--;
+console.log(gameCounter);
+
